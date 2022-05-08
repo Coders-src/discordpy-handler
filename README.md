@@ -8,6 +8,12 @@
 * [Python](https://python.org)-^v3.10.4
 * [Discord.py](hhttps://github.com/Rapptz/discord.py)-^v1.7.3
 
+## How to use?
+  * First download the codes.
+  * Then open terminal in same directory and type ``pip install -r requirements.txt``
+  * After that put token in last line of main.py and mongodb url in line 70 on main.py
+  * After that edit your info in main.py where ever required and also in other files in cogs folder.
+
 ## If You Need Any Support Join Support Server
 ## 💌 Support Server
 [![DiscordBanner](https://cdn.discordapp.com/icons/942117923001098260/a_e279d924a7bbc49cd9d4f91db93469c6.gif?size=4096)](https://discord.gg/coders)
