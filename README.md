@@ -6,7 +6,7 @@
   
 ## 📎 Requirement
 * [Python](https://python.org)-^v3.10.4
-* [Discord.py](hhttps://github.com/Rapptz/discord.py)-^v1.7.3
+* [Discord.py](https://github.com/Rapptz/discord.py)-^v1.7.3
 
 ## How to use?
   * First download the codes.
