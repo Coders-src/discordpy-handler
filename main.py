@@ -67,7 +67,7 @@ for filename in os.listdir('./cogs'):
 
 #connection to mongo
 if __name__ == '__main__':
-    bot.mongo = motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://ansh:0093@coders.dvklh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    bot.mongo = motor.motor_asyncio.AsyncIOMotorClient("MONGO_URL")
     bot.db = bot.mongo["discord"]
     bot.prefixes = discordmongo.Mongo(connection_url = bot.db, dbname='prefixes')
 
@@ -77,4 +77,4 @@ os.chdir(r'./')
 
 #makeing bot online
 keep_alive()
-bot.run("OTQxMjMzMTgwOTIzNTM5NDU2.YgS9tQ.MZPnc8pLtfbCJPaeDBvATvyX1go")
+bot.run("TOKEN")
