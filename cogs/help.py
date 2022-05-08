@@ -13,7 +13,7 @@ class HelpCog(commands.Cog, name='Help'):
         embed.add_field(name="Config", value="`changeprefix <newprefix>`, `deleteprefix`", inline=True)
         embed.add_field(name='Information', value="`help`, `ping`, `botinfo`", inline=True)
         embed.add_field(name='Owner', value='`load <cogname>`, `unload <cogname>`', inline=True)
-        embed.add_field(name="Github repository", value="[CLICK ME](https://github.com/Coders-src/discord.py-handler)")
+        embed.add_field(name="Github repository", value="[CLICK ME](https://github.com/Coders-src/discordpy-handler)")
         await ctx.send(embed=embed)
 
 def setup(bot):
