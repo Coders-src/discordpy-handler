@@ -1,0 +1,4 @@
+discord.py==1.7.3
+discordmongopy==0.3.0
+Flask==2.1.1
+motor==3.0.0
